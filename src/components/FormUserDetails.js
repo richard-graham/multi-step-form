@@ -35,7 +35,7 @@ export class FormUserDetails extends Component {
           <TextField 
             hintText='Enter Your Email'
             floatingLabelText='Email' 
-            onChange={handleChange('email ')}
+            onChange={handleChange('email')}
             defaultValue={values.email}
           />
           <br />
