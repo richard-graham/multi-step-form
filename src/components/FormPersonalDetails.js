@@ -40,7 +40,7 @@ export class FormPersonalDetails extends Component {
           <TextField 
             hintText='Enter Your Bio'
             floatingLabelText='Bio' 
-            onChange={handleChange('bio ')}
+            onChange={handleChange('bio')}
             defaultValue={values.bio}
           />
           <br />
